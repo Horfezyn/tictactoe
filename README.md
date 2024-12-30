@@ -1,7 +1,7 @@
 # Juego de Tic Tac Toe
 
 ## Resumen
-Esta es una implementación simple en Python del clásico juego **Tic Tac Toe**, también conocido como "El Gato". Permite que dos jugadores se turnen para jugar en una cuadrícula de 3x3 hasta que haya un ganador o el juego termine en empate.
+Esta es una implementación simple en Python del clásico juego **Tic Tac Toe** como parte del curso de IA impartido por el Dr. Yair Andrade, también conocido como "El Gato". Permite que dos jugadores se turnen para jugar en una cuadrícula de 3x3 hasta que haya un ganador o el juego termine en empate.
 
 ## Características
 - **Juego por turnos**: Los jugadores alternan turnos usando "X" y "O".
@@ -106,4 +106,4 @@ Ha sido un empate, mala suerte!
 Este proyecto es libre para usar y modificar.
 
 ---
-¡Disfruta del juego!
+¡Disfruta del juego! 
