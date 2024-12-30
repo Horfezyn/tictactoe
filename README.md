@@ -1,36 +1,36 @@
-# Tic Tac Toe Game
+# Juego de Tic Tac Toe
 
-## Overview
-This is a simple Python implementation of the classic **Tic Tac Toe** game, also known as "El Gato." It allows two players to take turns and play on a 3x3 grid until there is a winner or the game ends in a draw.
+## Resumen
+Esta es una implementación simple en Python del clásico juego **Tic Tac Toe**, también conocido como "El Gato". Permite que dos jugadores se turnen para jugar en una cuadrícula de 3x3 hasta que haya un ganador o el juego termine en empate.
 
-## Features
-- **Turn-based Gameplay**: Players alternate turns using "X" and "O."
-- **Dynamic Board Display**: The board updates after every move.
-- **Winner Detection**: Checks rows, columns, and diagonals for a winning combination.
-- **Draw Detection**: Ends the game if all positions are filled without a winner.
+## Características
+- **Juego por turnos**: Los jugadores alternan turnos usando "X" y "O".
+- **Visualización dinámica del tablero**: El tablero se actualiza después de cada movimiento.
+- **Detección de ganadores**: Verifica filas, columnas y diagonales para encontrar una combinación ganadora.
+- **Detección de empate**: Finaliza el juego si todas las posiciones están ocupadas sin un ganador.
 
-## How to Run
+## Cómo Ejecutar
 
-### Prerequisites
-Ensure you have Python 3 installed on your system. To check, run:
+### Requisitos previos
+Asegúrate de tener Python 3 instalado en tu sistema. Para verificar, ejecuta:
 ```bash
 python --version
 ```
 
-### Steps to Run
-1. Copy the code into a Python file named `tic_tac_toe.py`.
-2. Open a terminal or command prompt.
-3. Run the script:
+### Pasos para ejecutar
+1. Copia el código en un archivo Python llamado `tic_tac_toe.py`.
+2. Abre una terminal o línea de comandos.
+3. Ejecuta el script:
    ```bash
    python tic_tac_toe.py
    ```
-4. Follow the on-screen instructions to play the game.
+4. Sigue las instrucciones en pantalla para jugar.
 
-## Gameplay Instructions
-1. The game starts with Player "X."
-2. The players take turns entering a number between 1-9 corresponding to the position on the board:
+## Instrucciones de Juego
+1. El juego comienza con el jugador "X".
+2. Los jugadores se turnan para ingresar un número entre 1-9 correspondiente a la posición en el tablero:
 
-   **Board Positions:**
+   **Posiciones del Tablero:**
    ```
    1 | 2 | 3
    --+---+--
@@ -38,31 +38,31 @@ python --version
    --+---+--
    7 | 8 | 9
    ```
-3. The game checks for a winner after each move.
-4. If all positions are filled without a winner, the game declares a draw.
+3. El juego verifica si hay un ganador después de cada movimiento.
+4. Si todas las posiciones están ocupadas sin un ganador, el juego declara un empate.
 
-## Code Breakdown
+## Desglose del Código
 
-### Key Functions
+### Funciones Clave
 1. **`imprimir_tablero()`**
-   - Prints the current state of the board.
+   - Imprime el estado actual del tablero.
 
 2. **`verificar_ganador()`**
-   - Checks for winning combinations in rows, columns, and diagonals.
+   - Verifica combinaciones ganadoras en filas, columnas y diagonales.
 
 3. **`verificar_empate()`**
-   - Checks if all board positions are filled without a winner.
+   - Comprueba si todas las posiciones del tablero están ocupadas sin un ganador.
 
-4. **Main Game Loop**
-   - Handles player input, board updates, and winner/draw detection.
+4. **Bucle Principal del Juego**
+   - Maneja la entrada de los jugadores, actualiza el tablero y verifica ganadores/empates.
 
-### Winning Combinations
-- **Rows**: [1, 2, 3], [4, 5, 6], [7, 8, 9]
-- **Columns**: [1, 4, 7], [2, 5, 8], [3, 6, 9]
-- **Diagonals**: [1, 5, 9], [3, 5, 7]
+### Combinaciones Ganadoras
+- **Filas**: [1, 2, 3], [4, 5, 6], [7, 8, 9]
+- **Columnas**: [1, 4, 7], [2, 5, 8], [3, 6, 9]
+- **Diagonales**: [1, 5, 9], [3, 5, 7]
 
-## Example Output
-### Game Start
+## Ejemplo de Salida
+### Inicio del Juego
 ```
 1 | 2 | 3
 --+---+--
@@ -73,7 +73,7 @@ Turno del jugador X
 Introduce un número (1-9):
 ```
 
-### Winning Scenario
+### Escenario Ganador
 ```
 X | O | X
 --+---+--
@@ -83,7 +83,7 @@ O | X | X
 El jugador X es la verdura y ha ganado!
 ```
 
-### Draw Scenario
+### Escenario de Empate
 ```
 X | O | X
 --+---+--
@@ -93,17 +93,17 @@ X | O | X
 Ha sido un empate, mala suerte!
 ```
 
-## Known Limitations
-- Does not support AI or single-player mode.
-- Input validation is limited to numeric range and duplicates.
+## Limitaciones Conocidas
+- No soporta modo de un solo jugador o IA.
+- La validación de entrada está limitada a rango numérico y duplicados.
 
-## Future Enhancements
-- Add single-player mode with AI.
-- Improve user interface with graphical representation (e.g., Tkinter).
-- Add replay functionality.
+## Mejoras Futuras
+- Añadir un modo de un solo jugador con IA.
+- Mejorar la interfaz de usuario con representación gráfica (por ejemplo, Tkinter).
+- Agregar funcionalidad para reiniciar el juego.
 
-## License
-This project is free to use and modify.
+## Licencia
+Este proyecto es libre para usar y modificar.
 
 ---
-Enjoy the game!
+¡Disfruta del juego!
